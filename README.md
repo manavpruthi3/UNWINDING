@@ -1,12 +1,34 @@
-# The Unwinding Chapter — V2
+# Unwinding Chapter — Event Image Blocks
 
-A more editorial/social layout inspired by the supplied Instagram profile screenshot.
+Put these files in the SAME GitHub Pages folder:
 
-### Publish
-Upload `index.html` and `style.css` to your GitHub Pages repository.
+index.html
+style.css
+1.png
+2.png
+3.png
+4.png
+5.png
+01_website.html
+02_website.html
+03_website.html
+04_website.html
+05_website.html
 
-### Instagram
-The profile and links point to:
-https://www.instagram.com/unwinding_chapter/
+Image mapping:
+1.png = Badminton Social
+2.png = Board Gaming Social
+3.png = Sip & Paint
+4.png = Murder Mystery
+5.png = Paintball Social
 
-A browser-only GitHub Pages site cannot scrape the complete Instagram profile automatically. The design therefore uses the Instagram profile as the live social destination. Official embeds/API can be added when public post URLs or approved Meta API credentials are available.
+Explore buttons:
+01_website.html
+02_website.html
+03_website.html
+04_website.html
+05_website.html
+
+The image fills each block and a dark gradient is placed over it so the event title and Explore link remain readable.
+
+IMPORTANT: GitHub Pages filenames are case-sensitive. Keep the names exactly as shown.
