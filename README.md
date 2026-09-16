@@ -1,34 +1,153 @@
-# Unwinding Chapter — Event Image Blocks
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="The Unwinding Chapter — Meet. Play. Unwind.">
+<title>The Unwinding Chapter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-Put these files in the SAME GitHub Pages folder:
+<header class="topbar">
+  <a class="logo-text" href="#home">the unwinding <b>chapter.</b></a>
+  <nav>
+    <a href="#events">Events</a><a href="#moments">Moments</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="ig-mini" href="https://www.instagram.com/unwinding_chapter/" target="_blank" rel="noopener">Instagram ↗</a>
+</header>
 
-index.html
-style.css
-1.png
-2.png
-3.png
-4.png
-5.png
-01_website.html
-02_website.html
-03_website.html
-04_website.html
-05_website.html
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <span class="kicker">MEET · PLAY · UNWIND</span>
+    <h1>Find your people.<br><i>Make your moment.</i></h1>
+    <p>Bringing people together over fun experiences, spontaneous plans and good vibes.</p>
+    <div class="hero-actions">
+      <a class="button dark" href="https://www.instagram.com/unwinding_chapter/" target="_blank" rel="noopener">Follow @unwinding_chapter</a>
+      <a class="button line" href="#events">See what's happening ↓</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="scribble">YOUR<br>NEXT<br>CHAPTER</div>
+    <div class="round-sticker">PLAY<br><span>•</span> PEOPLE<br><span>•</span> MEMORIES</div>
+    <div class="floating-note">No awkward<br>introductions.</div>
+  </div>
+</section>
 
-Image mapping:
-1.png = Badminton Social
-2.png = Board Gaming Social
-3.png = Sip & Paint
-4.png = Murder Mystery
-5.png = Paintball Social
+<section class="profile-strip">
+  <div class="avatar"><span>UC</span></div>
+  <div class="profile-main">
+    <div class="profile-title"><h2>unwinding_chapter</h2><span class="verified">✓</span></div>
+    <p>The Unwinding Chapter</p>
+    <p class="muted">Meet . Play . Unwind.<br>Bringing people together over fun experiences</p>
+  </div>
+  <div class="stats"><strong>396</strong><span>followers</span><strong>0</strong><span>following</span></div>
+  <a class="profile-follow" href="https://www.instagram.com/unwinding_chapter/" target="_blank" rel="noopener">Follow</a>
+</section>
 
-Explore buttons:
-01_website.html
-02_website.html
-03_website.html
-04_website.html
-05_website.html
+<section id="events" class="section">
+  <div class="heading-row">
+    <div><span class="kicker">WHAT WE DO</span><h2>Pick a way to <i>unwind.</i></h2></div>
+    <p>Different people. Different games.<br>One good excuse to step out.</p>
+  </div>
 
-The image fills each block and a dark gradient is placed over it so the event title and Explore link remain readable.
+  <div class="event-grid">
+    <article class="event-card event-01">
+      <img src="1.png" alt="Badminton Social" class="event-image">
+      <div class="event-overlay"></div>
+      <div class="event-content">
+        <span class="event-number">01</span>
+        <h3>Badminton<br>Social</h3>
+        <p>Play • Meet • Repeat</p>
+        <a class="explore" href="01_website.html">Explore <span>→</span></a>
+      </div>
+    </article>
 
-IMPORTANT: GitHub Pages filenames are case-sensitive. Keep the names exactly as shown.
+    <article class="event-card event-02">
+      <img src="2.png" alt="Board Gaming Social" class="event-image">
+      <div class="event-overlay"></div>
+      <div class="event-content">
+        <span class="event-number">02</span>
+        <h3>Board Gaming<br>Social</h3>
+        <p>Same games. New people.</p>
+        <a class="explore" href="02_website.html">Explore <span>→</span></a>
+      </div>
+    </article>
+
+    <article class="event-card event-03">
+      <img src="3.png" alt="Sip and Paint" class="event-image">
+      <div class="event-overlay"></div>
+      <div class="event-content">
+        <span class="event-number">03</span>
+        <h3>Sip &amp;<br>Paint</h3>
+        <p>Create without pressure.</p>
+        <a class="explore" href="03_website.html">Explore <span>→</span></a>
+      </div>
+    </article>
+
+    <article class="event-card event-04">
+      <img src="4.png" alt="Murder Mystery" class="event-image">
+      <div class="event-overlay"></div>
+      <div class="event-content">
+        <span class="event-number">04</span>
+        <h3>Murder<br>Mystery</h3>
+        <p>Suspects welcome.</p>
+        <a class="explore" href="04_website.html">Explore <span>→</span></a>
+      </div>
+    </article>
+
+    <article class="event-card event-05">
+      <img src="5.png" alt="Paintball Social" class="event-image">
+      <div class="event-overlay"></div>
+      <div class="event-content">
+        <span class="event-number">05</span>
+        <h3>Paintball<br>Social</h3>
+        <p>A little chaos never hurt.</p>
+        <a class="explore" href="05_website.html">Explore <span>→</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="moments" class="section moments">
+  <div class="heading-row">
+    <div><span class="kicker">FROM THE CHAPTER</span><h2>Good times, <i>documented.</i></h2></div>
+    <a class="under-link" href="https://www.instagram.com/unwinding_chapter/" target="_blank" rel="noopener">View Instagram ↗</a>
+  </div>
+  <div class="masonry">
+    <div class="tile tile-a"><span>BOARD GAMING<br><b>SOCIAL 4.0</b></span></div>
+    <div class="tile tile-b"><span>PICKLEBALL<br><i>SOCIAL</i></span></div>
+    <div class="tile tile-c"><span>PAINTBALL<br><b>SOCIAL</b></span></div>
+    <div class="tile tile-d"><span>NEW PEOPLE.<br>GOOD VIBES.</span></div>
+    <div class="tile tile-e"><span>SEE YOU AT<br><i>THE NEXT EVENT.</i></span></div>
+  </div>
+</section>
+
+<section id="about" class="about-band">
+  <div><span class="kicker">THE IDEA</span><h2>Because meeting<br>new people <i>shouldn't<br>feel like networking.</i></h2></div>
+  <div class="about-copy">
+    <p>Unwinding Chapter creates low-pressure social experiences where you can show up, play something, talk to strangers and leave with a story.</p>
+    <p>No complicated agenda. No forced introductions. Just a reason to get out and unwind.</p>
+    <a class="under-link" href="https://www.instagram.com/unwinding_chapter/" target="_blank" rel="noopener">Join the chapter ↗</a>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <span class="kicker">YOUR NEXT PLAN</span>
+  <h2>Don't just scroll.<br><i>Come along.</i></h2>
+  <p>Follow the chapter and catch the next event.</p>
+  <div class="contact-actions">
+    <a class="button dark" href="https://www.instagram.com/unwinding_chapter/" target="_blank" rel="noopener">Instagram ↗</a>
+    <a class="button whatsapp" href="https://chat.whatsapp.com/HWtgDnjjYKCBnIDyESWDEd" target="_blank" rel="noopener">Join WhatsApp ↗</a>
+  </div>
+</section>
+</main>
+
+<footer><span>© <span id="year"></span> The Unwinding Chapter</span><span>Meet · Play · Unwind.</span></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
